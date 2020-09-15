@@ -37,7 +37,7 @@ class BattleViewController: UIViewController {
         
         super.viewDidLoad()
         
-//        キャラクターの読み込み
+        //        キャラクターの読み込み
         player = techMonManager.player
         enemy = techMonManager.enemy
         

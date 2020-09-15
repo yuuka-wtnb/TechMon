@@ -33,6 +33,7 @@ class LobbyViewController: UIViewController {
                                             userInfo: nil,
                                             repeats: true)
         staminaTimer.fire()
+        
     }
     //       ロビー画面が見えるようになるときによばれる
     func viewwillAppear(_ animated: Bool){
